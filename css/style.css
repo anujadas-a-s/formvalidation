@@ -1,0 +1,32 @@
+body {
+    background-image: url("../images/water.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+form {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+h2,
+h5 {
+    color: #fff;
+}
+input,
+label,
+select {
+    margin-top: 5px;
+}
+@media screen and (max-width: 972px) and(min-width:234px) {
+    form {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .row > * {
+        max-width: 93%;
+    }
+}
